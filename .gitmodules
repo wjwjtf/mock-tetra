@@ -1,0 +1,28 @@
+[submodule "devtools-frontend/build"]
+	path = devtools-frontend/build
+	url = https://chromium.googlesource.com/chromium/src/build.git
+	branch = e13953ced04ed05f45aa3c961bd6d802aced74ec
+[submodule "devtools-frontend/buildtools"]
+	path = devtools-frontend/buildtools
+	url = https://chromium.googlesource.com/chromium/src/buildtools.git
+	branch = f7862e515c44313f6942517fef6d7718d92283d3
+[submodule "devtools-frontend/third_party/depot_tools"]
+	path = devtools-frontend/third_party/depot_tools
+	url = https://chromium.googlesource.com/chromium/tools/depot_tools.git
+	branch = b75eae780dc340628491f23e164c88305f49da37
+[submodule "devtools-frontend/third_party/inspector_protocol"]
+	path = devtools-frontend/third_party/inspector_protocol
+	url = https://chromium.googlesource.com/deps/inspector_protocol.git
+	branch = 6d1ae0f13aae6ad381ca31b17b88a0f5af29ca94
+[submodule "devtools-frontend/third_party/clang-format/script"]
+	path = devtools-frontend/third_party/clang-format/script
+	url = https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/clang-format.git
+	branch = 37f6e68a107df43b7d7e044fd36a13cbae3413f2
+[submodule "devtools-frontend/extensions/cxx_debugging/third_party/llvm/src"]
+	path = devtools-frontend/extensions/cxx_debugging/third_party/llvm/src
+	url = https://chromium.googlesource.com/external/github.com/llvm/llvm-project/
+	branch = 3c51ea3619e488db19cd26840ed46d58cfc7062f
+[submodule "devtools-frontend/extensions/cxx_debugging/third_party/lldb-eval/src"]
+	path = devtools-frontend/extensions/cxx_debugging/third_party/lldb-eval/src
+	url = https://chromium.googlesource.com/external/github.com/google/lldb-eval.git
+	branch = e87123a7e639bf1d86f24c37079570fb7fa00b72
