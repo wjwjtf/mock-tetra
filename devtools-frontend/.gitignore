@@ -29,7 +29,6 @@ npm-debug.log
 /scripts/ai_assistance/performance-trace-downloads
 /scripts/ai_assistance/auto-run/performance-trace-downloads
 
-/buildtools
 /out
 /third_party/*
 !/third_party/emscripten-releases/
@@ -40,6 +39,9 @@ npm-debug.log
 !/third_party/image_diff
 !/third_party/pyjson5
 !/third_party/typescript
+!/third_party/depot_tools/
+!/third_party/inspector_protocol/
+!/third_party/clang-format/
 
 test/screenshots/.generated
 test/perf/.generated
